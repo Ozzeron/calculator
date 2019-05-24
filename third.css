@@ -57,3 +57,7 @@ button:hover{
     width: 150px;
     flex-wrap: wrap;
 }
+
+#equal{
+    width: 48px;
+}
