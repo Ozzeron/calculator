@@ -48,18 +48,18 @@ function writeEqual() {
     document.getElementById('input').value = eval(document.getElementById('input').value);
 }
 function writeMinus() {
-    document.getElementById('input').value = eval(document.getElementById('input').value);
+    document.getElementById('input').value = document.getElementById('input').value + '-';
 }
 function writeplus() {
-    document.getElementById('input').value = eval(document.getElementById('input').value);
+    document.getElementById('input').value = document.getElementById('input').value + '+';
 }
 function writeMulti() {
-    document.getElementById('input').value = eval(document.getElementById('input').value);
+    document.getElementById('input').value =  document.getElementById('input').value + '*';
 }
 function writeSlash() {
-    document.getElementById('input').value = eval(document.getElementById('input').value);
+    document.getElementById('input').value = document.getElementById('input').value + '/';
 }
-function writeSqrt() {
-    document.getElementById('input').value = eval(document.getElementById('input').value);
-}
+// function writeSqrt() {
+//     document.getElementById('input').value = document.getElementById('input').value + &#8730;
+// }
 
