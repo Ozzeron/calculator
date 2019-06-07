@@ -12,20 +12,21 @@
 <body>
     <h1>Calculate like a GOD</h1>
     <div class="result_field">
-        <p class="result_field_text">0</p>
+        <!--<p class="result_field_text" id="result">0</p>-->
+        <input class="result_field" type="text" id="input">
     </div>
     <div class="whole_button_block">
         <div class="nubmer_buttons">
-        <button onclick="write">1</button>
-        <button id="2">2</button>
-        <button id="3">3</button>
-        <button id="4">4</button>
-        <button id="5">5</button>
-        <button id="6">6</button>
-        <button id="7">7</button>
-        <button id="8">8</button>
-        <button id="9">9</button>
-        <button id="10">0</button>
+        <button id="1" onclick="write1()">1</button>
+        <button id="2" onclick="write2()">2</button>
+        <button id="3" onclick="write3()">3</button>
+        <button id="4" onclick="write4()">4</button>
+        <button id="5" onclick="write5()">5</button>
+        <button id="6" onclick="write6()">6</button>
+        <button id="7" onclick="write7()">7</button>
+        <button id="8" onclick="write8()">8</button>
+        <button id="9" onclick="write9()">9</button>
+        <button id="10" onclick="write0()">0</button>
         </div>
         <div class="operator_buttons">
             <button id="plus">+</button>
@@ -33,7 +34,7 @@
             <button id="mult">*</button>
             <button id="slash">/</button>
             <button id="sqrt">&#8730</button>
-            <button id="ce">CE</button>
+            <button id="ce" onclick="writeCE()">CE</button>
             <button id="equal">=</button>
 
         </div>
