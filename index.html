@@ -17,25 +17,26 @@
     </div>
     <div class="whole_button_block">
         <div class="nubmer_buttons">
-        <button id="1" onclick="write1(1)">1</button>
-        <button id="2" onclick="write1(2)">2</button>
-        <button id="3" onclick="write1(3)">3</button>
-        <button id="4" onclick="write1(4)">4</button>
-        <button id="5" onclick="write1(5)">5</button>
-        <button id="6" onclick="write1(6)">6</button>
-        <button id="7" onclick="write1(7)">7</button>
-        <button id="8" onclick="write1(8)">8</button>
-        <button id="9" onclick="write1(9)">9</button>
-        <button id="10" onclick="write1(0)">0</button>
+        <button onclick="write1(1)">1</button>
+        <button onclick="write1(2)">2</button>
+        <button onclick="write1(3)">3</button>
+        <button onclick="write1(4)">4</button>
+        <button onclick="write1(5)">5</button>
+        <button onclick="write1(6)">6</button>
+        <button onclick="write1(7)">7</button>
+        <button onclick="write1(8)">8</button>
+        <button onclick="write1(9)">9</button>
+        <button  onclick="write1(0)">0</button>
         </div>
         <div class="operator_buttons">
-            <button id="plus" onclick="writeplus()">+</button>
-            <button id="minus" onclick="writeMinus()">-</button>
-            <button id="mult" onclick="writeMulti()">*</button>
-            <button id="slash" onclick="writeSlash()">/</button>
-            <button id="sqrt" onclick="writeSqrt()">&#8730</button>
-            <button id="ce" onclick="write1('ce')">CE</button>
-            <button id="equal" onclick="writeEqual()">=</button>
+            <button onclick="write1('+')">+</button>
+            <button onclick="write1('-')">-</button>
+            <button onclick="write1('*')">*</button>
+            <button onclick="write1('/')">/</button>
+            <button onclick="write1('Math.sqrt()')">&#8730</button>
+            <button onclick="doMath('ce')">CE</button>
+            <button onclick="doMath('giveResult')">=</button>
+            <button onclick="doMath('removeOne')">&#8592;</button>
 
         </div>
     </div>
