@@ -29,8 +29,10 @@ document.onkeypress = function(event){
     if (event.keyCode === 13){
         doMath('giveResult');
     }
-    else if (event.charCode && (event.charCode < 48 || event.charCode > 57))// проверка на event.charCode - чтобы пользователь мог нажать backspace, enter, стрелочку назад...
-    return false;
+    // else if (event.charCode && (event.charCode < 48 || event.charCode > 57))// проверка на event.charCode - чтобы пользователь мог нажать backspace, enter, стрелочку назад...
+    // return false;
 }
+
+
 
 
