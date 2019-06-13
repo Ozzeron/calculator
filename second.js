@@ -15,8 +15,14 @@ function doMath(a) {
             document.getElementById('input').value = '';
             break;
         case 'removeOne':
-            document.getElementById('input').value = document.getElementById('input').value[document.getElementById('input').value.length-1];
+            document.getElementById('input').value = document.getElementById('input').value.substring(0, document.getElementById('input').value.length-1)
             break;
     }
 }
+document.onkeypress = function(event){
+    if (event.keyCode === 13){
+        doMath('giveResult');
+    }
+}
+
 
