@@ -3,7 +3,7 @@ let glob2 = 0;
 
 
 function write1(a) {
-    document.getElementById('input') += a;
+    document.getElementById('input').value += a;
 }
 
 
