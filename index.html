@@ -11,12 +11,12 @@
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBwRxH7HpTWKiWFNmjK_JHNm0fBRVj6t-g&libraries=places"></script>
 </head>
 <body>
-    <input id="pac-input" class="controls" type="text"
-           placeholder="Select your location here">
-    
-    <div id="map-canvas"></div>
-    
-    <div id="marketWidget"></div>
+    <input type="text" id="autocomplete"/>
+
+    <script>
+      var input = document.getElementById('autocomplete');
+      var autocomplete = new google.maps.places.Autocomplete(input);
+    </script>
     <h1>Calculate or DIE</h1>
     <h1>Calculate or DIE</h1>
     <h1>Calculate or DIE</h1>
