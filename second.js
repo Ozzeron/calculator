@@ -33,6 +33,10 @@ document.onkeypress = function(event){
     // return false;
 }
 
+var input = document.getElementById('pac-input');
+map.controls[google.maps.ControlPosition.TOP_LEFT].push(input);
+
+var autocomplete = new google.maps.places.Autocomplete(input, options);
 
 
 
